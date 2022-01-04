@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+    APP
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">APP</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-button color=dark (click)="popclick($event)">Popover</ion-button><br>
+  <ion-button color=dark ion-button routerLink="/menu" >Menu</ion-button><br>
+  <ion-button color=dark ion-button routerLink="/progress-bar" >Progress-Bar</ion-button><br>
+  <ion-button color=light ion-button>Skeleton-Text</ion-button>
+
+</ion-content>

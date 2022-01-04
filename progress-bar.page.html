@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>progress-bar</ion-title>
+
+
+    <!--Coloca seta voltar na barra superior -->
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/" text=""></ion-back-button> 
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+<!--Barra default simples (cheia) -->
+  <ion-progress-bar color="danger">Default</ion-progress-bar>
+  <br>
+  <!--Barra de porcentagem setada a 40%   -->
+  <ion-progress-bar value="0.4" color="secondary">Default 40%</ion-progress-bar>
+  <br>
+  <!--Barra intermitente para animações de butons paginas e afins -->
+  <ion-progress-bar color="tertiary" type ="indeterminate">Indeterminada</ion-progress-bar>
+  <br>
+  <!--Barra intermitente reversivel para animações de butons paginas e afins -->
+  <ion-progress-bar color="warning" type ="indeterminate" reversed="true" >Ideterminada reversivel</ion-progress-bar>
+   
+
+</ion-content>
+
+<!-- rNz -->
